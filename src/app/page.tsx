@@ -1,10 +1,9 @@
-import { ModeToggle } from "@/components/theme-toggle";
+import HeroSection from "@/components/hero-section";
 
 export default function Home() {
   return (
-    <div className="">
-      <h1>Hello from InspoShelf</h1>
-      <ModeToggle />
-    </div>
+    <main className="flex-1">
+      <HeroSection />
+    </main>
   );
 }
